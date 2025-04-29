@@ -1,6 +1,6 @@
 <div align="center">
-    <img src="/assets/Grafana.png" alt="Grafana Logo" style="width: 200px; height: auto;">
-    <img src="/assets/Prometheus.png" alt="Prometheus Logo" style="width: 200px; height: auto;">
+    <img src="Grafana.png" alt="Grafana Logo" style="width: 200px; height: auto;">
+    <img src="Prometheus.png" alt="Prometheus Logo" style="width: 200px; height: auto;">
 </div>
 
 # Monitoring Stack with Prometheus and Grafana
