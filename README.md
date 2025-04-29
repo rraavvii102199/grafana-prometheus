@@ -36,26 +36,26 @@ docker-compose up -d
 
 -   **Prometheus**: http://localhost:9090
 
-![Image](/assets/Screenshot%202025-04-19%20101841.png)
+![Image](Screenshot%202025-04-19%20101841.png)
 
 -   **Grafana**: http://localhost:3000
     -   Default credentials: admin/admin
 
-![Image](/assets/Screenshot%202025-04-19%20013847.png)
+![Image](Screenshot%202025-04-19%20013847.png)
 
 -   **Node Exporter Metrics**: http://localhost:9100/metrics
 
-![Image](/assets/Screenshot%202025-04-19%20012733.png)
+![Image](Screenshot%202025-04-19%20012733.png)
 
 ## Verify Node Exporter and Grafana UP in Prometheus
 
-![Image](/assets/Screenshot%202025-04-19%20101900.png)
+![Image](Screenshot%202025-04-19%20101900.png)
 
 ## Setting Up Grafana Dashboard
 
 1. Log in to Grafana (http://localhost:3000)
 
-![Image](/assets/Screenshot%202025-04-19%20101900.png)
+![Image](Screenshot%202025-04-19%20101900.png)
 
 2. Add Prometheus as a data source:
     - Go to Configuration → Data Sources
@@ -64,7 +64,7 @@ docker-compose up -d
     - URL: http://prometheus:9090
     - Click "Save & Test"
 
-![Image](/assets/Screenshot%202025-04-19%20102259.png)
+![Image](Screenshot%202025-04-19%20102259.png)
 
 3. Import the Node Exporter dashboard:
     - Click "+" → Import
@@ -72,13 +72,13 @@ docker-compose up -d
     - Select Prometheus data source
     - Click Import
 
-![Image](/assets/Screenshot%202025-04-19%20102428.png)
+![Image](Screenshot%202025-04-19%20102428.png)
 
-![Image](/assets/Screenshot%202025-04-19%20102504.png)
+![Image](Screenshot%202025-04-19%20102504.png)
 
 ## Dashboard
 
-![Image](/assets/Screenshot%202025-04-19%20102534.png)
+![Image](Screenshot%202025-04-19%20102534.png)
 
 ## Configuration Files
 
